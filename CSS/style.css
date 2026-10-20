@@ -66,6 +66,7 @@ nav a {
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
+    /* padding sert à ajouter de l'espace à l'intérieur d'un élément, entre son contenu et sa bordure. opposé de margin */
 }
 .projets img {
     width: 100%;
@@ -78,6 +79,7 @@ nav a {
 #Compétences ul {
     display: flex;
     flex-wrap: wrap;
+    /* flex-wrap = Elle sert à indiquer si les éléments d'un conteneur flex doivent rester sur une seule ligne ou passer à la ligne suivante lorsqu'il n'y a plus assez de place.  */
     justify-content: center;
     list-style: none;
 }
